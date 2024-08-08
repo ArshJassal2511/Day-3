@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Website Redesign</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#">Portfolio</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          
+          <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <a href="#" class="active">Project</a>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="Project">
+        <h1>Project</h1>
+        <div class="project-details">
+            <h2>Project Details</h2>
+            <ul>
+                <li><strong>Client:</strong> Wishuu</li>
+                <br><br>
+                <li><strong>Project Name:</strong>Customer Sentiment Analysis with brands </li><br>
+                <li><strong>Duration:</strong> 1 month</li><br>
+                <li><strong>Technologies:</strong> Html, Css, Machine Learning</li><br>
+            </ul>
+        </div>
+        <div class="project-description">
+            <h2>Project Description</h2>
+            <p>Customer Sentiment Analysis for Brands in Amazon
+
+              This project aims to analyze and model the sentiments expressed in Amazon customer reviews. By analyzing the text of the reviews and the ratings given, the project seeks to provide insights into customer opinions and emotions towards various brands and products on Amazon.
+              <button id="toggle-button">Show More</button>
+        <div id="more-info" style="display: none;">
+            <p> 
+                Objective:
+              
+              The objective of this project is to develop a sentiment analysis system that can accurately classify customer reviews as positive, negative, or neutral, and provide insights into customer sentiments towards different brands and products on Amazon.<br>
+              
+              Methodology:
+              
+              Data Collection: Collect a large dataset of Amazon customer reviews for various brands and products.
+              Pre-processing: Pre-process the collected data by tokenizing the text, removing stop words, and converting all text to lowercase.
+              Sentiment Analysis: Use natural language processing (NLP) and machine learning techniques to analyze the pre-processed data and classify the reviews as positive, negative, or neutral.<br>
+              Entity Extraction: Extract specific entities such as product names, brands, and features from the reviews.<br>
+              Sentiment Scoring: Assign a sentiment score to each review based on the sentiment analysis results.<br>
+
+              Tools and Technologies:
+              
+              Amazon Comprehend: A natural language processing (NLP) service that can be used for sentiment analysis, entity extraction, and topic modeling.
+              Python: A programming language that can be used for data pre-processing, sentiment analysis, and entity extraction.
+              Machine Learning Algorithms: Such as Naive Bayes, Support Vector Machines (SVM), and Random Forest can be used for sentiment analysis.</p></p>
+        </div>
+        </div>
+        <div class="project-gallery">
+            <h2>Project Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/project-gallery-image1.jpg" alt="Project Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/project-gallery-image2.jpg" alt="Project Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/project-gallery-image3.jpg" alt="Project Gallery Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="project.js"></script>
+</body>

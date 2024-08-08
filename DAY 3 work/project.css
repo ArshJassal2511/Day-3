@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #b74b4b;
+    --primary-color-dark: #b74b4b;
+    --secondary-color: #b74b4b;
+    --text-dark: #7c91ad;
+    --text-light: #92a7d1;
+    --extra-light:black;
+    --max-width: 1200px;
+  }
+
+nav {
+    background-color: #070707;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo a {
+    color: #b74b4b;
+    text-decoration: none;
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .checkbox + label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #b74b4b;
+  }
+  
+  .checkbox + label i {
+    font-size: 24px;
+  }
+  
+  .checkbox:checked + label i {
+    transform: rotate(180deg);
+  }
+  
+ ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+    
+  }
+  
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+  }
+  ul a {
+    color:#b74b4b;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    border-top-color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+  }
+
+section {
+    padding: 20px;
+}
+
+#project {
+    background-color: black;
+    padding: 40px;
+}
+
+.project-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-details {
+    background-color: #b74b4b;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #f7f7f7;
+    flex-direction: row   ;
+}
+
+.project-details ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.project-description {
+    padding: 20px;
+    color: #b74b4b;
+}
+
+.project-gallery {
+    padding: 20px;
+    color:#b74b4b;
+    flex-direction: row   ;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-item {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
